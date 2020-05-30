@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="44" height="24" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="tileSpriteSheet" tilewidth="40" tileheight="40">
+  <image source="../img/tileSpriteSheet.png" width="280" height="1640"/>
+ </tileset>
+ <layer name="Boden" width="44" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEKACAMQ9Eugt7/wi4dRGpBlyaSwJ9cnqIZ5oaXnaEnr7ys3nXVlpOP+X2ze6DVvVdv20J/X3nlZfUambc6Fu+6asutudrxgzdyyav/EHmZNgFuWSA/
+  </data>
+ </layer>
+ <layer name="Items" width="44" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzVl0kOwCAIRb1C73+prjrcppuaGAL4BYnyNiYM9TdYiqXk41wt4GcXHSgWvRdZUR+aq9lG9d5G3ywizsNryGnf9WH8nA2l6jk6fs33duIoHr0Skn6EWmdLbTQ8mlY+W/q2Ivf04q0d7W1SD8xCW6uI7y2SlXppL6Arxwy9mWo0u0/uTm8esuT24q0zlmWvyuhMxcWj8wl63mvcrv1s5J9omVm1/uO1UTuam52oex56Fmhctnunxgchwzmr
+  </data>
+ </layer>
+ <layer name="Mauer" width="44" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzdlm0OwyAIhtkxdLN3Xi/SX9uv7W6lSUlIBylz4tQ3ISQW9akfYLoAXDuyiNaSbshzRz/Dp4+N8kpaYAze4x5Yv1n7nrWNzuslK2/a80ASuGryTsI82j5tktY5h1f6bw9xXks+W5hp43iKz0O1YspY31q8mrx4tRolxXwjK+8D7Qnt8UpndtML7Q1lz4MXL797vZ3fWvlM0z/rxVl8YH1CZj6z6Je7RXHW+lbizVKibVTeVtQjL9Uo8q3zUo0iH/d3cejIVuQMXTE=
+  </data>
+ </layer>
+ <layer name="Mauer2" width="44" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJACAMA8BuIO6/rB8nKBZLufsH8kkioN7+XeDq0gMmWsmcXQJd+SeAtw6D9QBU
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="44" height="24">
+  <object type="player" x="1656" y="460"/>
+  <object x="1148" y="343"/>
+  <object x="1617" y="741" width="1"/>
+  <object x="1653" y="743"/>
+  <object x="1658" y="774"/>
+  <object x="1618" y="793"/>
+  <object x="1463" y="377"/>
+  <object x="1434" y="377"/>
+  <object x="1429" y="418"/>
+  <object x="1467" y="412"/>
+  <object x="1454" y="396"/>
+  <object x="1621" y="767"/>
+  <object x="108" y="308"/>
+  <object x="187" y="306" height="2"/>
+  <object x="382" y="293"/>
+  <object x="377" y="104"/>
+  <object x="664" y="104" width="23" height="23"/>
+  <object x="106" y="104"/>
+  <object x="81" y="641"/>
+  <object x="319" y="639"/>
+  <object x="379" y="815"/>
+  <object x="593" y="661"/>
+  <object x="779" y="588"/>
+  <object x="780" y="551"/>
+  <object x="784" y="457"/>
+  <object x="782" y="420"/>
+  <object x="967" y="614"/>
+  <object x="1189" y="620"/>
+  <object x="808" y="345"/>
+  <object x="945" y="330"/>
+  <object x="941" y="316"/>
+  <object x="922" y="333"/>
+  <object x="648" y="289"/>
+  <object x="665" y="287"/>
+  <object x="685" y="287"/>
+  <object x="1544" y="154"/>
+  <object x="1564" y="152" width="1"/>
+  <object x="1590" y="140" width="2"/>
+  <object x="1575" y="167"/>
+  <object x="1191" y="392"/>
+  <object x="1603" y="163" width="1"/>
+  <object x="1611" y="163"/>
+  <object x="1478" y="533"/>
+  <object x="1483" y="570"/>
+  <object x="1510" y="531"/>
+  <object x="1456" y="557" width="2"/>
+ </objectgroup>
+</map>

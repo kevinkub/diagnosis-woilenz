@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="33" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="tileSpriteSheet" tilewidth="40" tileheight="40">
+  <image source="img/tileSpriteSheet.png" width="280" height="1640"/>
+ </tileset>
+ <tileset firstgid="288" name="tileSpriteSheet" tilewidth="40" tileheight="40">
+  <image source="img/tileSpriteSheet.png" width="280" height="1640"/>
+ </tileset>
+ <layer name="Boden" width="40" height="33">
+  <data encoding="base64" compression="zlib">
+   eJzt2DsKwzAMBmBr6j0yuLTNUbr1Ft16/6U1xOCI2NYfW44KEfxDII+PPIjkiZybhIl1o/15g0Ftofxv++LwhOM+YFptkkr3vxIWbRs3+o4+iY0EabmP2rZW4whbyRjO79k1Qz2XjLLVjLxeS0baasba8x1hQ9/HLZ+2rWTkVfJp2nJG1KdpS425Z3z6MB+v1Hen9bc7ypfrd2Y6fT19say+fxZ81r9f1Kdt5Ne0/v+13L9s9Vj/1P8d2T9bnj+szm+SWfiI+TfObBbXD6T3Terrvf7Sc31DapQGtSG+1Pig/UF9X6wsTrY=
+  </data>
+ </layer>
+ <layer name="gegenstände" width="40" height="33">
+  <data encoding="base64" compression="zlib">
+   eJzVmEsOwiAQhjsnqlcxej5toguXegZd6WFc+VjKhEyCEyaldGDol0xaaFJ+5kEpXdc+A3hD9uAN2YG3E9hpQwZh/JLaXuAN6eG/zZ8TZ9e+BH2ltL1Bbn8Sxywd0y94S20f3P0R5mnbKs+pj7xP028rZb3WdarJeiFz0Y6hRGpsp9aAlp+n5N7GILaatSHpt5hXSyylZkPC+uXxk2qpVs1PxSr/lhh3C2L5pL1nIfjeRVr/SuXy2Lyu7vmtwl45l7vT85ihL6cmLL8fNDbPhzm1Hds/twLPP6SlHOT5R1j+f3CfSfHN0aixDko+IzT+MXOI+SmWf7XOD8ZAvaEvLc5fQi1IzF99oK/2+RXXQ/6i/pjempCeJzPqp+sPk75RXw==
+  </data>
+ </layer>
+ <layer name="mauern" width="40" height="33">
+  <data encoding="base64" compression="zlib">
+   eJzNmEtKBDEQhiutMGdyVxvvIMogehQfCx8b76Gg6HXGlR5CULAyGMzESlUlncT54Cc9ZLrzUd1N0oEJ4NkBvDi9Xf5kDp90/pezt4vJdt1lI78dGm93srcfhvEktz1DZqHUT3NDQzjHR7reU3TNO9j8Hfql+2txs5BzNJHxa+UWQKhz5OrX2i2AkHc8pBxF7Yryyvj1ctMcTyinUftGefcdkV9vN82RY8H4pbR0CyAYHRW/Hm4BhL+OZzT+OeWCcunk+vV0yzle0fjXlBvKrducPzi/EaDUKdRPPK8hUh20+zsCjI73k0jzG+a7hiH5jaqfhLS+wmEWAlvw/MXjSM/ff72/4jhbVr8UrX69HdM56iB5H7T1AUI/R27+PE7Gl+a3AEJ7x9zcntbPuv5DaOcouaX1K1k/I8x3LHHj/Dy9HEvd1lR8vyGUO1a5Qf33L4LdsdbNo+1vWBy11LqtMewPaY5aqt1g/P5ViZvH+93T/x/cb+vhjlv4lbh5vgGEsW5S
+  </data>
+ </layer>
+ <layer name="dächer" width="40" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztlDkOgDAMBB0eB6LgeChU8Dk63AIKlSWPYKdKmmgTz8bsylbM9lLfi38zuQtzoA8H3C16PmuyA7yDfz84ej+RCd4/+P+Hzyc+Db2/9Hzqr0gF7h+lvz0kh6jT+oy64DlF+jf4WWO0R/D+3ln8/mt5rrM4AdnSEHY=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="40" height="33">
+  <object x="662" y="1094"/>
+  <object x="781" y="1096"/>
+  <object x="903" y="1099"/>
+  <object x="896" y="974"/>
+  <object x="784" y="980"/>
+  <object x="660" y="972"/>
+  <object x="659" y="856"/>
+  <object x="779" y="855"/>
+  <object x="902" y="859"/>
+  <object x="661" y="735"/>
+  <object x="771" y="735"/>
+  <object x="909" y="742"/>
+  <object x="535" y="979"/>
+  <object x="1024" y="979"/>
+  <object x="1020" y="860"/>
+  <object x="1018" y="732"/>
+  <object x="1137" y="734"/>
+  <object x="1132" y="859"/>
+  <object x="658" y="173"/>
+  <object x="772" y="174"/>
+  <object x="889" y="173"/>
+  <object x="654" y="301"/>
+  <object x="773" y="299"/>
+  <object x="890" y="295"/>
+  <object x="1016" y="302"/>
+  <object x="654" y="417"/>
+  <object x="779" y="416"/>
+  <object x="904" y="420"/>
+  <object x="1016" y="425"/>
+  <object x="1139" y="425"/>
+  <object x="542" y="423"/>
+  <object x="538" y="298"/>
+  <object x="537" y="546"/>
+  <object x="653" y="541"/>
+  <object x="773" y="542"/>
+  <object x="896" y="550"/>
+  <object x="1010" y="545"/>
+  <object x="1144" y="534"/>
+  <object x="536" y="736"/>
+  <object x="539" y="862"/>
+  <object x="419" y="856"/>
+  <object x="421" y="739"/>
+  <object x="416" y="536"/>
+  <object x="413" y="409"/>
+  <object type="player" x="334" y="618"/>
+  <object x="1254" y="536"/>
+  <object x="1256" y="738"/>
+  <object x="179" y="97"/>
+  <object x="137" y="177"/>
+  <object x="176" y="1145"/>
+  <object x="134" y="1217"/>
+  <object x="1480" y="1206"/>
+  <object x="1552" y="1036"/>
+  <object x="1379" y="177"/>
+  <object x="1539" y="178"/>
+  <object x="1227" y="179"/>
+  <object x="1473" y="335"/>
+  <object x="1494" y="500"/>
+  <object x="651" y="19"/>
+  <object x="814" y="20"/>
+  <object x="941" y="22"/>
+  <object x="503" y="138"/>
+  <object x="412" y="218"/>
+  <object x="333" y="302"/>
+  <object x="219" y="384"/>
+  <object x="225" y="540"/>
+  <object x="222" y="658"/>
+  <object x="213" y="777"/>
+  <object x="221" y="894"/>
+  <object x="329" y="978"/>
+  <object x="411" y="1050"/>
+  <object x="489" y="1129"/>
+  <object x="571" y="1211"/>
+  <object x="652" y="1253"/>
+  <object x="777" y="1257"/>
+  <object x="898" y="1258"/>
+  <object x="1016" y="1216"/>
+  <object x="1102" y="1136"/>
+  <object x="1180" y="1056"/>
+  <object x="1255" y="980"/>
+  <object x="1337" y="897"/>
+  <object x="1339" y="371"/>
+  <object x="1253" y="296"/>
+  <object x="1175" y="208"/>
+  <object x="1094" y="136"/>
+ </objectgroup>
+ <layer name="dach2" width="40" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztzkEJAAAIBLCzf2J/lhBE2BIsAQD4pet6AAAAbBmuBAD7
+  </data>
+ </layer>
+</map>

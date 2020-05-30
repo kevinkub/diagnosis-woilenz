@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Game</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+
+	<body onload="init();">
+		<img src="img/page-loader.gif" id="loading">
+
+		<canvas id="gameframe" width="800" height="600" style="border: 1px soild black;"></canvas>
+
+		<form id="nameinput" action="#" onsubmit="return scenes.name.submit()">
+			<input type="text" id="playername">
+		</form>
+
+		<script type="text/javascript" src="data/config.js"></script>
+
+		<script type="text/javascript" src="js/lib/game.js"></script>
+		<script type="text/javascript" src="js/lib/vector.js"></script>
+
+		<script type="text/javascript" src="js/lib/util/controls.js"></script>
+		<script type="text/javascript" src="js/lib/util/sound.js"></script>
+		<script type="text/javascript" src="js/lib/util/backgroundsound.js"></script>
+		<script type="text/javascript" src="js/lib/util/graphic.js"></script>
+		<script type="text/javascript" src="js/lib/util/util.js"></script>
+		<script type="text/javascript" src="js/lib/util/ajax.js"></script>
+		<script type="text/javascript" src="js/lib/util/mouse.js"></script>
+		<script type="text/javascript" src="js/lib/ui/sprite.js"></script>
+		<script type="text/javascript" src="js/lib/ui/clickable.js"></script>
+
+
+		<script type="text/javascript" src="js/viewport.js"></script>
+		<script type="text/javascript" src="js/lib/mapbuffer.js"></script>
+
+		<script type="text/javascript" src="js/entity/mapEntity.js"></script>
+		<script type="text/javascript" src="js/entity/person.js"></script>
+		<script type="text/javascript" src="js/entity/hero.js"></script>
+		<script type="text/javascript" src="js/entity/victim.js"></script>
+		<script type="text/javascript" src="js/entity/animation.js"></script>
+		<script type="text/javascript" src="js/entity/shot.js"></script>
+		<script type="text/javascript" src="js/entity/grenade.js"></script>
+		<script type="text/javascript" src="js/entity/bomb.js"></script>
+		<script type="text/javascript" src="js/entity/radar.js"></script>
+
+		<script type="text/javascript" src="js/mapui.js"></script>
+
+		<script type="text/javascript" src="js/scenes/scene.js"></script>
+		<script type="text/javascript" src="js/scenes/titleScene.js"></script>
+		<script type="text/javascript" src="js/scenes/mapScene.js"></script>
+		<script type="text/javascript" src="js/scenes/creditsScene.js"></script>
+		<script type="text/javascript" src="js/scenes/highscoreScene.js"></script>
+		<script type="text/javascript" src="js/scenes/completedScene.js"></script>
+		<script type="text/javascript" src="js/scenes/helpScene.js"></script>
+		<script type="text/javascript" src="js/scenes/nameScene.js"></script>
+		<script type="text/javascript" src="js/scenes/intoScene.js"></script>
+
+		<script type="text/javascript" src="js/weapons/rifle.js"></script>
+		<script type="text/javascript" src="js/weapons/flamethrower.js"></script>
+		<script type="text/javascript" src="js/weapons/grenadethrower.js"></script>
+		<script type="text/javascript" src="js/weapons/bombWeapon.js"></script>
+
+		<script type="text/javascript">
+			var scenes = {
+				map: new mapScene(),
+				title: new titleScene(),
+				credits: new creditsScene(),
+				highscore: new highscoreScene(),
+				help: new helpScene(),
+				complete: new completeScene(),
+				name: new nameScene(),
+				intro: new introScene()
+			}
+
+			function init() {
+				sound.preload( 'sound/fx/laser/laser.ogg', 10 );
+				backgroundsound.play("sound/music/staticvoid%20-%20dumpish%20future.ogg");
+
+				g.load( function() {
+					document.getElementById('loading').style.display = 'none';
+					game.scene = scenes.intro;
+					scenes.name.init();
+					controls.init();
+					game.init();
+					mouse.init();
+				});
+			}
+		</script>
+	</body>
+</html>
